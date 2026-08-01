@@ -54,3 +54,31 @@ The Blob Container was successfully created and is ready to store blobs.
 ### Screenshot
 
 ![](screenshots/02-blob-container-created.png.png)
+
+
+
+## Step 3 – Upload a Blob
+
+### Objective
+
+Upload a file to the Blob Container to verify that the Storage Account is ready to store data.
+
+### Configuration
+
+| Setting | Value |
+|---------|-------|
+| Storage Service | Azure Blob Storage |
+| Container | goodnews001 |
+| Uploaded File | Tryhackme Soc Level 1 Certificate |
+
+### Why?
+
+Uploading a blob confirms that the Blob Container is working correctly and can securely store files.
+
+### Result
+
+The file was successfully uploaded to the Blob Container.
+
+### Screenshot
+
+![](screenshots/03-blob-uploaded.png.png)
