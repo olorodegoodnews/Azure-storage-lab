@@ -139,3 +139,27 @@ The selected group was successfully assigned the **Storage Blob Data Reader** ro
 ### Screenshot
 
 ![](screenshots/05-storage-rbac-reader.png.png)
+
+
+---
+
+## Step 6 – Generate a Shared Access Signature (SAS) Token
+
+### Objective
+
+Generate a Shared Access Signature (SAS) to provide secure, temporary access to blob data.
+
+### Configuration
+
+| Setting | Value |
+|---------|-------|
+| Service | Blob |
+| Resource Type | Object |
+| Permission | Read |
+| Protocol | HTTPS Only |
+
+### Why?
+
+A SAS token provides time-limited access to Azure Storage resources without exposing the storage account keys.
+
+> **Security Note:** The Connection String, SAS Token, and Blob Service SAS URL screenshot will not be shown because it is exposing sensitive credentials. This follows Azure security best practices.
