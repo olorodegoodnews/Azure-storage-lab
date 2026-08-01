@@ -192,3 +192,32 @@ A Lifecycle Management rule was successfully created to move blobs to the Cool a
 ### Screenshot
 
 ![](screenshots/07-lifecycle-management-rule.png.png)
+
+
+---
+
+## Step 8 – Enable Blob Versioning and Soft Delete
+
+### Objective
+
+Enable Azure Storage data protection features to help recover deleted or modified blobs.
+
+### Configuration
+
+| Setting | Value |
+|---------|-------|
+| Blob Versioning | Enabled |
+| Soft Delete | Enabled |
+| Retention | 7 Days |
+
+### Why?
+
+Blob Versioning preserves previous versions of files, while Soft Delete allows deleted blobs to be recovered within the retention period.
+
+### Result
+
+Blob Versioning and Soft Delete were successfully enabled to improve data protection.
+
+### Screenshot
+
+![](screenshots/08-data-protection-enabled.png.png)
