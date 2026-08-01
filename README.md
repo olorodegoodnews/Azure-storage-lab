@@ -1,3 +1,43 @@
+# Azure Storage Account Lab
+
+## Project Overview
+
+This project demonstrates how to deploy and manage Azure Storage resources while following Azure Administrator best practices.
+
+## Skills Demonstrated
+
+- Azure Storage Account
+- Blob Containers
+- Blob Uploads
+- Azure RBAC
+- Shared Access Signature (SAS)
+- Lifecycle Management
+- Blob Versioning
+- Soft Delete
+- Azure Resource Cleanup
+
+## Azure Services Used
+
+- Azure Storage Account
+- Azure Blob Storage
+- Azure RBAC
+- Lifecycle Management
+- Data Protection
+
+## Project Steps
+
+- Step 1 - Create Storage Account
+- Step 2 - Create Blob Container
+- Step 3 - Upload Blob
+- Step 4 - Configure Container Access
+- Step 5 - Assign Azure RBAC
+- Step 6 - Generate SAS Token
+- Step 7 - Configure Lifecycle Management
+- Step 8 - Enable Blob Versioning & Soft Delete
+- Step 9 - Clean Up Resources
+
+
+
 # Azure-storage-lab
 Hands-on Azure Storage lab based on Microsoft Learn. This project documents the creation and management of Azure Storage resources.
 
@@ -242,3 +282,21 @@ The Storage Account used for this lab was deleted after all documentation and sc
 ### Screenshot
 
 ![](screenshots/09-clean-up-resources.png.png)
+
+
+
+---
+
+## Lessons Learned
+
+During this project I learned how to:
+
+- Deploy an Azure Storage Account.
+- Create and manage Blob Containers.
+- Upload and manage blobs.
+- Configure Azure RBAC for secure access.
+- Generate Shared Access Signatures (SAS).
+- Configure Lifecycle Management.
+- Protect data using Blob Versioning and Soft Delete.
+- Follow Azure security best practices.
+- Document Azure projects professionally on GitHub.
