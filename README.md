@@ -82,3 +82,31 @@ The file was successfully uploaded to the Blob Container.
 ### Screenshot
 
 ![](screenshots/03-blob-uploaded.png.png)
+
+
+---
+
+## Step 4 – Configure the Blob Container Access Level
+
+### Objective
+
+Review and configure the access level of the Blob Container.
+
+### Configuration
+
+| Setting | Value |
+|---------|-------|
+| Container | goodnews001 |
+| Access Level | *(Private / Blob / Container)* |
+
+### Why?
+
+The access level determines who can read or list the blobs stored in the container. Keeping containers private is a security best practice unless public access is required.
+
+### Result
+
+The Blob Container access level was reviewed and configured as required.
+
+### Screenshot
+
+![](screenshots/04-container-access-level.png.png)
