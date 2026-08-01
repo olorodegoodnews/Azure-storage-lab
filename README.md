@@ -110,3 +110,32 @@ The Blob Container access level was reviewed and configured as required.
 ### Screenshot
 
 ![](screenshots/04-container-access-level.png.png)
+
+
+---
+
+## Step 5 – Assign Azure RBAC Permissions
+
+### Objective
+
+Grant a user or group permission to access blob data using Azure Role-Based Access Control (RBAC).
+
+### Configuration
+
+| Setting | Value |
+|---------|-------|
+| Resource | Azure Storage Account |
+| Role | Storage Blob Data Reader |
+| Assigned To | John Administrator |
+
+### Why?
+
+Azure RBAC allows administrators to grant only the permissions required for a user's role, following the principle of least privilege.
+
+### Result
+
+The selected user or group was successfully assigned the **Storage Blob Data Reader** role.
+
+### Screenshot
+
+![](screenshots/05-storage-rbac-reader.png.png)
