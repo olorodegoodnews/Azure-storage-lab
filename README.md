@@ -118,7 +118,7 @@ The Blob Container access level was reviewed and configured as required.
 
 ### Objective
 
-Grant a user or group permission to access blob data using Azure Role-Based Access Control (RBAC).
+Grant a group permission to access blob data using Azure Role-Based Access Control (RBAC).
 
 ### Configuration
 
@@ -134,7 +134,7 @@ Azure RBAC allows administrators to grant only the permissions required for a us
 
 ### Result
 
-The selected user or group was successfully assigned the **Storage Blob Data Reader** role.
+The selected group was successfully assigned the **Storage Blob Data Reader** role.
 
 ### Screenshot
 
