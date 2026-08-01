@@ -163,3 +163,32 @@ Generate a Shared Access Signature (SAS) to provide secure, temporary access to 
 A SAS token provides time-limited access to Azure Storage resources without exposing the storage account keys.
 
 > **Security Note:** The Connection String, SAS Token, and Blob Service SAS URL screenshot will not be shown because it is exposing sensitive credentials. This follows Azure security best practices.
+
+
+---
+
+## Step 7 – Configure Lifecycle Management
+
+### Objective
+
+Create a Lifecycle Management rule to automatically move blobs to a lower-cost storage tier.
+
+### Configuration
+
+| Setting | Value |
+|---------|-------|
+| Rule Name | MoveToCoolAfter30Days |
+| Action | Move blobs to Cool tier |
+| Days | 30 |
+
+### Why?
+
+Lifecycle Management helps reduce storage costs by automatically managing blob data based on rules.
+
+### Result
+
+A Lifecycle Management rule was successfully created to move blobs to the Cool access tier after 30 days.
+
+### Screenshot
+
+![](screenshots/07-lifecycle-management-rule.png.png)
