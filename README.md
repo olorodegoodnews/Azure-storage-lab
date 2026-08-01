@@ -26,3 +26,31 @@ The Azure Storage Account was successfully created.
 ### Screenshot
 
 ![](screenshots/01-storage-account-created.png.png)
+
+
+---
+
+## Step 2 – Create a Blob Container
+
+### Objective
+
+Create a Blob Container inside the Azure Storage Account to organize and store blob data.
+
+### Configuration
+
+| Setting | Value |
+|---------|-------|
+| Container Name | public |
+| Access Level | Private (No anonymous access) |
+
+### Why?
+
+A Blob Container provides a logical way to organize files stored in Azure Blob Storage.
+
+### Result
+
+The Blob Container was successfully created and is ready to store blobs.
+
+### Screenshot
+
+![](screenshots/02-blob-container-created.png.png)
