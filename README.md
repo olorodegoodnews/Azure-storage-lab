@@ -221,3 +221,24 @@ Blob Versioning and Soft Delete were successfully enabled to improve data protec
 ### Screenshot
 
 ![](screenshots/08-data-protection-enabled.png.png)
+
+
+---
+
+## Step 9 – Clean Up Resources
+
+### Objective
+
+Remove the Azure Storage Account after completing the lab to avoid unnecessary resource usage.
+
+### Why?
+
+Cleaning up Azure resources helps prevent unnecessary costs and keeps the Azure environment organized.
+
+### Result
+
+The Storage Account used for this lab was deleted after all documentation and screenshots were completed.
+
+### Screenshot
+
+![](screenshots/09-clean-up-resources.png.png)
